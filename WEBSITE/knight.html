@@ -1,0 +1,109 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #300;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: cyan;
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href=intro.html>Intro</a></li>
+  <li><a href=About.html>About Me</a></li>
+  <li><a href=documents.html>Documents</a></li>
+  <li><a href=projects.html>Projetcs</a></li>
+  
+</ul>
+
+<h2 style="text-align:center;">3D PRINTED KNIGHT CHESS PIECE</h2>
+<p> We were tasked with creating a knight chess piece using a 3D printer. The process included designing a 3D prototype using Fusion 360 by Autodesk, then using CURA to slice the STL file so it will be ready for printing, followed by exporting the file and finally 3D printing it using the Ultimaker 2+ in the workshop. 
+  <br>
+In order to create the base of the chess piece, I first used the “create” function to draw half of the base as a 2D sketch, and then completed the entire base using the 'revolve’ function, resulting in a circular and hollow 3D base. The upper part of the chess piece, consisting of the knight’s head, was formed using a transparent canvas. This was the canvas used and the 2D sketch that I made.
+<br>
+<br>
+<img src="sketch.jpg" width="900" height="600">
+
+<br>
+<br>
+I first followed the outlines and sketched out a simplified 2D design. I then proceeded to extrude the 2D sketch to form a 3D head for the chess piece. I then joined the two parts together to form a complete knight chess piece. After that, I went ahead and did some minor editing using the “fillet” function to smoothen the edges so that the chess piece would look better aesthetically.
+<br>
+<br>
+<img src="base and head.jpg" width="900" height="600">
+<br>
+Above are pictures of the base formed using the "revolve" fucntion and the extruded sketch of the knight's head. 
+<br>
+<p>And this is the completed 3D model on Fusion 360.
+<p>
+<iframe src="https://ichat2481.autodesk360.com/shares/public/SH35dfcQT936092f0e433bf25bb99063c2ae?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<br>
+<br>
+After the model was complete, I exported it to CURA, which is a slicing application for 3D printers. Here is how it looked it on the application before and after slicing.
+<br>
+<br>
+<img src="before2.jpg" width="700" height="500">
+<br>
+<img src="after.jpg" width="300" height="300">
+<br>
+These are the settings that were used for the completed model:
+<br>
+Printer: Ultimaker 2+
+<br>
+Material used: PLA
+<br>
+Nozzle size: 0.4mm 
+<br>
+Extrude: 0.2mm
+<br>
+Layer height: 0.25mm
+<br>
+Wall thickness: 0.8mm
+<br>
+Infill density: 10%
+<br>
+Infill pattern: grid 
+<br>
+Infill layer thickness: 0.2mm
+<br>
+Generate supports: enabled 
+<br>
+Support overhang angle: 50 degrees 
+<br>
+Build plate adhesion: brim 
+<br>
+
+The time taken to print was 45 minutes. It was measured to be approximately 3.2cm in height (including base) and 1cm in width (knight head). The base was measured to have a diameter of 3.4cm.
+<br>
+This is the finished 3D printed knight chess piece! 😊
+<br>
+<img src="printed.jpg" width="350" height="300">
+<br>
+</body>
+</html>
+
